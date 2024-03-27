@@ -17,5 +17,11 @@ export default defineConfig({
   },
   server:{
     port:3001,
+    proxy: {
+      "/api/contacts/": {
+        target: "http://localhost:3000/",
+        changeOrigin: true,
+      },
+    }
   },
 });
