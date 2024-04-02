@@ -120,5 +120,5 @@ export default {
 </script>
 
 <style scoped>
-@import "@/assets/form.css";
+@import "@/assets/style.css";
 </style>
